@@ -1,0 +1,98 @@
+/*Zera margens*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*****INICIO Topo********************/
+.topo{
+    padding-top: 15px;      /* tamanho da borda do topo */
+    padding-bottom: 30px;   /* tamanho da borda de baixo */
+    
+
+    background-color: rgb(49, 49, 128); /* Cor do corpo */
+    color: rgba(244, 244, 247, 0.979);  /* Cor da Letra */
+
+    border-bottom: dashed 10px rgb(27, 128, 187); /* traços */
+}
+    .topo h1{
+        font-family: Arial, Helvetica, sans-serif; /* Tipo da Letra */
+        font-size: 35px;    /* Tamanho da Letra */
+        text-align: center; /* Centralizar texto */
+        text-shadow: 0px 5px 5px black;          /* Sombra do texto */
+                
+    }
+/*****FIM Topo***********************/
+
+
+/*****INICIO Copo Principal********************/
+body{
+    background-image: url(fundo.png);  /* Imagem de fundo */
+    background-size: auto;             /*Tamanho da Imagem de fundo*/
+    background-attachment: fixed;      /*Fixar Imagem de  FUndo*/
+}
+/*****FIM Copo Principal**********************/
+
+.post{
+    
+    width: 400px;          /*Comprimento da div*/
+    background-color: rgb(243, 237, 237); /*Cor principal da div*/
+    margin: 0 auto;       /*Marge 0 para a parte de cima e baixo da div, e centralizar dos lados*/
+
+    padding: 15px;       /*Tamanho das bordas*/
+    border-radius: 20px; /*Radius das laterais*/
+    margin-top: 30px;
+    
+}
+
+.praia{
+    width: 100%;                /*tamanho da imagem na div*/
+    border-radius: 20px;        /*Radius das laterais da imagem*/
+     margin-top: 10px;          /*tamanho da margem do topo do botão*/
+}
+
+.post h2{
+    font-family: Arial, Helvetica, sans-serif; /*tipo da letra*/
+    font-size: 25px;                           /*Tamanhho da Letra*/
+    text-align: center;                        /*Centralizar letra*/
+
+    padding-top: 10px;
+    color: rgb(61, 55, 151);                  /*Cor da letra*/
+    text-shadow: 2px 4px 8px rgb(46, 45, 45); /* Sombra do texto */
+}
+
+.ranking{
+    padding-top: 5px;
+    padding-bottom: 15px;
+    width: 5%;                  /*tamanho da estrela*/
+}
+
+.post p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: justify;        /*Deixar o texto justificado*/
+}
+
+.btCompr{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;     /*tira os detalhes do botão*/
+    font-size: 15px;
+
+    background-color: blue; /*Cor do botão*/
+    color: white;           /*Cor da Letra*/
+    text-align: center;       /*centralizar texto*/
+
+    font-weight: bold;
+    display: block;
+    width: 200px;              /*Comprimento do Botão*/
+    padding: 8px;              /*tamanho das bordas do botão*/
+    margin: 0 auto;            /*Centralzar botão*/
+    margin-top: 10px;          /*tamanho da margem do topo do botão*/
+    border-radius: 20px;       /*Radius das laterais*/
+}
+
+.btCompr:hover{
+    background-color: rgb(43, 101, 226);      /* Cor alterada do botão*/
+    text-shadow: 2px 4px 5px rgb(46, 45, 45); /* Sombra do texto */
+
+}
